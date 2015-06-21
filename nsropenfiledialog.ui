@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NSROpenFileDialog</class>
+ <widget class="QWidget" name="NSROpenFileDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>469</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color: rgba(0, 0, 0, 220);
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>9</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+	background-color: transparent;
+	border-bottom: 1px solid rgb(179, 181, 179);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="margin">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <property name="spacing">
+         <number>6</number>
+        </property>
+        <property name="margin">
+         <number>6</number>
+        </property>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="pathLabel">
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	background-color: transparent;
+	color: rgb(179, 181, 179);
+	font-size: 25px;
+	border: none;
+}</string>
+          </property>
+          <property name="text">
+           <string>Current path</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="cancelButton">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0,  x2:0.5, y2:1, stop:0 rgb(29, 35, 29), stop:1 rgb(3, 1, 3));
+	color: white;
+	border-bottom: 1px solid rgb(29, 35, 29);
+	border-radius: 10px;
+	min-height:40px;
+	min-width: 120px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0,  x2:0.5, y2:1, stop:0 rgb(19, 25, 19), stop:1 rgb(3, 1, 3));
+	color: rgb(99, 101, 99);
+}</string>
+          </property>
+          <property name="text">
+           <string>Cancel</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="NSRTreeView" name="treeView">
+     <property name="styleSheet">
+      <string notr="true">QTreeView {
+	background-color: transparent;
+	border: none;
+	font-size: 25px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+QTreeView::item {
+	min-height: 55px;
+	color: rgb(179, 181, 179);
+}
+
+QTreeView::item:selected {
+	background-color: rgb(67, 105, 163);
+	border: none;
+	border-radius: 8px;
+}
+
+QScrollBar:horizontal {
+	border: none;
+	background: transparent;
+	height: 10px;
+}
+
+QScrollBar::handle:horizontal {
+	background: rgba(40, 40, 40, 220);
+	min-width: 50px;
+	border-width: 1px;
+	border-color: rgba(235, 235, 235, 240);
+	border-style: solid;
+	border-radius: 5px;
+}
+
+QScrollBar::add-line:horizontal {
+	background: transparent;
+	width: 0px;
+	border: none;
+}
+
+QScrollBar::sub-line:horizontal {
+	background: transparent;
+	width: 0px;
+	border: none;
+}
+
+QScrollBar:up-arrow:horizontal, QScrollBar::down-arrow:horizontal {
+	width: 0px;
+	height: 0px;
+	background: none;
+}
+
+ QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+	background: transparent;
+}
+
+QScrollBar:vertical {
+	border: none;
+	background-color: transparent;
+	width: 16px;
+}
+
+QScrollBar::handle:vertical {
+	background: rgba(40, 40, 40, 220);
+	min-height: 50px;
+	border-width: 1px;
+	border-color: rgba(235, 235, 235, 240);
+	border-style: solid;
+	border-radius: 5px;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+	
+QScrollBar::add-line:vertical {
+	background: transparent;
+	height: 0px;
+	border: none;
+}
+
+QScrollBar::sub-line:vertical {
+	background: transparent;
+	height: 0px;
+	border: none;
+}
+
+QScrollBar:up-arrow:vertical, QScrollBar::down-arrow:vertical {
+	width: 0px;
+	height: 0px;
+	background: none;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+	background: transparent;
+}
+
+QWidget  {
+	background-color: transparent;
+}
+</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>NSRTreeView</class>
+   <extends>QTreeView</extends>
+   <header>nsrtreeview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

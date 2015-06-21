@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/nsr-splash-meego.png</file>
+        <file>icons/dropdown-wide.png</file>
+    </qresource>
+</RCC>

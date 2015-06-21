@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>NSRInputDialog</class>
+ <widget class="QWidget" name="NSRInputDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>464</width>
+    <height>257</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color: rgba(0, 0, 0, 220);
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">QFrame {
+	background-color: transparent;
+	border-bottom: 1px solid rgb(179, 181, 179);
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="cancelButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0,  x2:0.5, y2:1, stop:0 rgb(29, 35, 29), stop:1 rgb(3, 1, 3));
+	color: white;
+	border-bottom: 1px solid rgb(29, 35, 29);
+	border-radius: 10px;
+	min-height: 40px;
+	min-width: 120px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0,  x2:0.5, y2:1, stop:0 rgb(19, 25, 19), stop:1 rgb(3, 1, 3));
+	color: rgb(99, 101, 99);
+}</string>
+        </property>
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>289</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="okButton">
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0,  x2:0.5, y2:1, stop:0 rgb(67, 105, 163), stop:1 rgb(43, 85, 155));
+	color: white;
+	border-bottom: 1px solid rgb(83, 121, 171);
+	border-radius: 10px;
+	min-height: 40px;
+	min-width: 120px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+QPushButton:disabled {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0,  x2:0.5, y2:1, stop:0 rgb(59, 93, 139), stop:1 rgb(35, 73, 131));
+	color: rgb(99, 101, 99);
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:0.5, y1:0,  x2:0.5, y2:1, stop:0 rgb(59, 93, 139), stop:1 rgb(35, 73, 131));
+	color: rgb(99, 101, 99);
+}</string>
+        </property>
+        <property name="text">
+         <string>OK</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="promptLabel">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	background-color: transparent;
+	color: rgb(179, 181, 179);
+	font-size: 25px;
+	margin-left: 9px;
+	margin-right: 9px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Enter text:</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="inputEdit">
+       <property name="minimumSize">
+        <size>
+         <width>450</width>
+         <height>59</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit {
+	font-size: 30px;
+	margin-left: 9px;
+	margin-right: 9px;
+	min-height: 55px;
+	border: 2px solid none;
+	border-radius: 15px;
+	background-color: rgb(227, 229, 227);
+	selection-background-color: rgb(19, 129, 219);
+	selection-color: rgb(251, 253, 251);
+}
+
+QLineEdit:focus {
+	border: 2px solid rgb(19, 129, 219);
+	background-color: rgb(251, 253, 251);
+}</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>181</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/gear.png</file>
+        <file>icons/about.png</file>
+        <file>icons/goto.png</file>
+        <file>icons/uparrow.png</file>
+        <file>icons/door.png</file>
+        <file>icons/document.png</file>
+        <file>icons/facebook.png</file>
+        <file>icons/twitter.png</file>
+        <file>icons/nsrlogo.png</file>
+        <file>icons/nsr-splash.png</file>
+        <file>icons/nsr-splash-wide.png</file>
+        <file>icons/nsrlogo-title.png</file>
+        <file>icons/toggle-off.png</file>
+        <file>icons/toggle-on.png</file>
+        <file>icons/back.png</file>
+        <file>icons/next.png</file>
+        <file>icons/open.png</file>
+        <file>icons/zoom-in.png</file>
+        <file>icons/zoom-out.png</file>
+        <file>icons/back-disabled.png</file>
+        <file>icons/document-disabled.png</file>
+        <file>icons/next-disabled.png</file>
+        <file>icons/zoom-in-disabled.png</file>
+        <file>icons/zoom-out-disabled.png</file>
+        <file>icons/spinner-1.png</file>
+        <file>icons/spinner-2.png</file>
+        <file>icons/spinner-3.png</file>
+        <file>icons/spinner-4.png</file>
+        <file>icons/spinner-5.png</file>
+        <file>icons/spinner-6.png</file>
+        <file>icons/spinner-7.png</file>
+        <file>icons/spinner-8.png</file>
+        <file>icons/spinner-9.png</file>
+        <file>icons/spinner-10.png</file>
+        <file>icons/dropdown.png</file>
+    </qresource>
+</RCC>

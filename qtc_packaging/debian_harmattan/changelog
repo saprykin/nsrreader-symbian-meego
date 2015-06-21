@@ -1,0 +1,13 @@
+nsrreader (2.1.2) unstable; urgency=low
+
+  * Add Brazil Portuguese and Spanish languages.
+  * Fix TIFF handling when pages count was less by one.
+
+ -- Alexander Saprykin <nsr.reader@gmail.com>  Thu, 01 Dec 2012 17:46:00 +0400
+
+
+nsrreader (2.1.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Alexander Saprykin <nsr.reader@gmail.com>  Thu, 15 Nov 2012 21:04:00 +0400

@@ -1,0 +1,24 @@
+#include <RegistryInfo.rh>
+ 
+RESOURCE REGISTRY_INFO r_registry
+    {
+    dll_uid = 0x20049F7A;
+    interfaces =
+        {
+        INTERFACE_INFO
+            {
+            interface_uid = 0x101F7D87;
+            implementations =
+                {
+                IMPLEMENTATION_INFO
+                    {
+                    implementation_uid = 0x20049F7A;
+                    version_no = 1;
+                    display_name = "NSR Reader Recognizer";
+                    default_data = "NSR Reader Recognizer";
+                    opaque_data = "";
+                    }
+                };
+            }
+        };
+    }

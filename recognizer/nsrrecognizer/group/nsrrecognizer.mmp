@@ -1,0 +1,22 @@
+TARGET		  nsrrecognizer.dll
+TARGETTYPE	  PLUGIN
+UID			  0x10009D8D 0x20049F7A
+
+SYSTEMINCLUDE   \epoc32\include \epoc32\include\ecom \epoc32\include\libc
+SYSTEMINCLUDE \epoc32\include\mw
+SYSTEMINCLUDE \epoc32\include\platform
+SYSTEMINCLUDE \epoc32\include\platform\mw
+SYSTEMINCLUDE \epoc32\include\bafl 
+
+SOURCEPATH ..
+SOURCE nsrrecognizer.cpp
+
+START RESOURCE 20049F7A.rss
+	TARGET nsrrecognizer.rsc
+END
+
+LIBRARY euser.lib
+LIBRARY efsrv.lib
+LIBRARY apmime.lib
+
+CAPABILITY ProtServ
