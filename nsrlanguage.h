@@ -19,7 +19,6 @@ struct NSRLanguageData {
 	QString mainOpenTxtFormat;
 	QString mainOpenTIFFFormat;
 	QString mainFirstTextMode;
-	QString mainLiteVersionInfo;
 	QString mainZoomTo;
 	QString mainPageNumber;
 	QString mainAlreadyOpened;
@@ -39,15 +38,10 @@ struct NSRLanguageData {
 	QString contextRotateLeft;
 	QString contextRotateRight;
 	/* About window */
-	QString aboutPublisher;
-	QString aboutPublisherName;
-	QString aboutDeveloper;
 	QString aboutDeveloperName;
 	QString aboutContacts;
 	QString aboutIconsNote;
-	QString aboutFeedbackNote;
 	QString aboutFacebookNote;
-	QString aboutLiteNote;
 	/* Splash screen */
 	QString splashLoading;
 	/* News window */

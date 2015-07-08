@@ -17,12 +17,7 @@
 
 #  include <eiklbm.h>
 #  include <badesca.h>
-
-#  ifdef NSR_LITE_VERSION
-#    include <dialogs_2005ffa7.rsg>
-#  else
-#    include <dialogs_20049f7a.rsg>
-#  endif
+#  include <dialogs_20049f7a.rsg>
 #else
 #  include "nsrlistselector.h"
 #endif

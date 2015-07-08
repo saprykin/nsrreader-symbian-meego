@@ -26,10 +26,6 @@ static NSRLanguageData _languages[] = {
 			 "may be differ than in original one, no images displayed and page can "
 			 "be empty if there is no text in the document. Also text may not be "
 			 "displayed properly if appropriate language is not supported by phone."),
-	QObject::trUtf8 ("You are using the Lite version of NSR Reader and it's restricted "
-			 "only for %1 pages per document. If you want to view full document "
-			 "without any restrictions please consider purchasing full version "
-			 "at Nokia store."),
 	QObject::trUtf8 ("Zoom to %:"),
 	QObject::trUtf8 ("Page number (%1):"),
 	QObject::trUtf8 ("File is already opened!"),
@@ -49,17 +45,10 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Rotate Left"),
 	QObject::trUtf8 ("Rotate Right"),
 	/* About window */
-	QObject::trUtf8 ("Publisher:"),
-	QObject::trUtf8 ("Ekimov Alexander Vladimirovich"),
-	QObject::trUtf8 ("Developer:"),
-	QObject::trUtf8 ("Alexander Saprykin,\n(c) 2011-2013"),
+	QObject::trUtf8 ("Alexander Saprykin, (c) 2011-2015"),
 	QObject::trUtf8 ("Contacts:"),
 	QObject::trUtf8 ("Used icons:"),
-	QObject::trUtf8 ("If you liked NSR Reader, please leave a feedback  "
-			 "in Nokia store on application's page."),
 	QObject::trUtf8 ("Find on Facebook!"),
-	QObject::trUtf8 ("You're using the Lite version. Buy full version in "
-			 "Nokia store to view documents without any restrictions."),
         /* Splash screen */
 	QObject::trUtf8 ("Loading..."),
 	/* News window */
@@ -101,9 +90,6 @@ static NSRLanguageData _languages[] = {
 			 "отличаться от оригинала, изображения не будут отображаться, и страница "
 			 "может быть пустой, если документ не содержит текста. Также текст может не "
 			 "отображаться корректно, если соответствующий язык не поддерживается телефоном."),
-	QObject::trUtf8 ("Вы используете Lite-версию NSR Reader, а она ограничена "
-			 "только на первые %1 страниц документа. Если вы хотите просматривать весь "
-			 "документ без ограничений, то, пожалуйста, купите полную версию в магазине Nokia."),
 	QObject::trUtf8 ("Масштаб до %:"),
 	QObject::trUtf8 ("Номер страницы (%1):"),
 	QObject::trUtf8 ("Файл уже открыт!"),
@@ -123,17 +109,10 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Повернуть влево"),
 	QObject::trUtf8 ("Повернуть вправо"),
 	/* About window */
-	QObject::trUtf8 ("Издатель:"),
-	QObject::trUtf8 ("Екимов Александр Владимирович"),
-	QObject::trUtf8 ("Разработчик:"),
-	QObject::trUtf8 ("Сапрыкин Александр,\n(c) 2011-2013"),
+	QObject::trUtf8 ("Сапрыкин Александр, (c) 2011-2015"),
 	QObject::trUtf8 ("Контакты:"),
 	QObject::trUtf8 ("Иконки:"),
-	QObject::trUtf8 ("Если вам понравилась NSR Reader - пожалуйста, оставьте "
-			 "свой отзыв на странице приложения в магазине Nokia."),
 	QObject::trUtf8 ("Ищите на Facebook!"),
-	QObject::trUtf8 ("Вы используете Lite-версию. Купите полную версию в "
-			 "магазине Nokia для просмотра документов без ограничений."),
 	/* Splash screen */
 	QObject::trUtf8 ("Загрузка..."),
 	/* News window */
@@ -174,8 +153,6 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("आप टेक्स्ट मोड का उपयोग पहली बार कर रहे हैं। कृपया नोट करें कि दस्तावेज की फॉर्मेटिंग मूल से अलग "
 			 "हो सकती है, अगर दस्तावेज में कोई पाठ नहीं है तो कोई भी प्रदर्शित चित्र और पेज खाली नहीं हो सकते हैं। "
 			 "साथ ही, अगर फोन के द्वारा उचित भाषा समर्थित नहीं है तो पाठ ठीक से प्रदर्शित नहीं हो सकता है।"),
-	QObject::trUtf8 ("आप NSR Reader के Lite वर्शन का उपयोग कर रहे हैं और यह प्रति दस्तावेज केवल %1 पेज के लिए "
-			 "सीमित है। अगर आप बिना किसी प्रतिबंध के पूरा दस्तावेज देखना चाहते हैं तो कृपया Nokia स्टोर में फुल वर्शन खरीदें।"),
 	QObject::trUtf8 ("% ज़ूम करें:"),
 	QObject::trUtf8 ("पेज संख्या (%1):"),
 	QObject::trUtf8 ("फाइल पहले से ही खुली है!"),
@@ -195,15 +172,10 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("बायें घुमाएं"),
 	QObject::trUtf8 ("दायें घुमाएं"),
 	/* About window */
-	QObject::trUtf8 ("पब्लिशर:"),
-	QObject::trUtf8 ("Ekimov Alexander Vladimirovich"),
-	QObject::trUtf8 ("डेवलपर:"),
-	QObject::trUtf8 ("Alexander Saprykin,\n(c) 2011-2013"),
+	QObject::trUtf8 ("Alexander Saprykin, (c) 2011-2015"),
 	QObject::trUtf8 ("संपर्क:"),
 	QObject::trUtf8 ("प्रयुक्त आइकन:"),
-	QObject::trUtf8 ("अगर NSR Reader आपको पसंद आया हो तो कृपया अनुप्रयोग पेज पर Nokia स्टोर में फीडबैक दें।"),
 	QObject::trUtf8 ("Facebook पर पाएं!"),
-	QObject::trUtf8 ("आप Lite वर्शन का उपयोग कर रहे हैं। दस्तावेजों को बिना किसी प्रतिबंध के देखने के लिए Nokia स्टोर में फुल वर्शन खरीदें।"),
 	/* Splash screen */
 	QObject::trUtf8 ("लोड हो रहा है..."),
 	/* News window */
@@ -246,9 +218,6 @@ static NSRLanguageData _languages[] = {
 			 "senza immagini (quindi, se non c'è testo, potresti vedere solo un file "
 			 "vuoto). Lo stesso testo potrebbe essere visualizzato male se la lingua "
 			 "corretta non è supportata dal telefono."),
-	QObject::trUtf8 ("Stai usando la versione Lite dell'NSR Reader, che è limitata a %1 pagine "
-			 "per documento. Se vuoi vedere i documenti per intero senza restrizioni, "
-			 "l'acquisto è disponibile sul Nokia store."),
 	QObject::trUtf8 ("Zoom al %:"),
 	QObject::trUtf8 ("Numero di pagina (%1):"),
 	QObject::trUtf8 ("Il file è già aperto!"),
@@ -268,17 +237,10 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Ruota a sinistra"),
 	QObject::trUtf8 ("Ruota a destra"),
 	/* About window */
-	QObject::trUtf8 ("Editore:"),
-	QObject::trUtf8 ("Ekimov Alexander Vladimirovich"),
-	QObject::trUtf8 ("Sviluppatore:"),
-	QObject::trUtf8 ("Alexander Saprykin,\n(c) 2011-2013"),
+	QObject::trUtf8 ("Alexander Saprykin, (c) 2011-2015"),
 	QObject::trUtf8 ("Contatti:"),
 	QObject::trUtf8 ("Icone utilizzate:"),
-	QObject::trUtf8 ("Se ti piace l'NSR Reader, si prega di lasciare un feedback "
-			 "sulla pagina dell'applicazione nel Nokia store."),
 	QObject::trUtf8 ("Trova su Facebook!"),
-	QObject::trUtf8 ("Stai usando la versione Lite. Compra la versione completa "
-			 "sul Nokia store per vedere i documenti senza restrizioni."),
 	/* Splash screen */
 	QObject::trUtf8 ("In caricamento..."),
 	/* News window */
@@ -321,9 +283,6 @@ static NSRLanguageData _languages[] = {
 			 "do documento pode diferir da original, sem exibição de imagens e a página "
 			 "pode estar vazia se não houver texto no documento. Além disso, o texto pode "
 			 "não ser exibido corretamente se o idioma apropriado não for suportado por seu celular."),
-	QObject::trUtf8 ("Você está usando a versão Lite do NSR Reader, sendo ele limitado a %1 páginas "
-			 "por documento. Caso queira visualizar o documento completo sem quaisquer restrições, "
-			 "por favor, considere comprar a versão completa na Nokia store."),
 	QObject::trUtf8 ("Zoom em %:"),
 	QObject::trUtf8 ("Número da página (%1):"),
 	QObject::trUtf8 ("O arquivo já está aberto!"),
@@ -343,17 +302,10 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Girar à Esquerda"),
 	QObject::trUtf8 ("Girar à Direita"),
 	/* About window */
-	QObject::trUtf8 ("Editor:"),
-	QObject::trUtf8 ("Ekimov Alexander Vladimirovich"),
-	QObject::trUtf8 ("Desenvolvedor:"),
-	QObject::trUtf8 ("Alexander Saprykin,\n(c) 2011-2013"),
+	QObject::trUtf8 ("Alexander Saprykin, (c) 2011-2015"),
 	QObject::trUtf8 ("Contatos:"),
 	QObject::trUtf8 ("Ícones usados:"),
-	QObject::trUtf8 ("Se gostou do NSR Reader, por favor, deixe um "
-			 "comentário na página do aplicativo na Nokia store."),
 	QObject::trUtf8 ("Encontre no Facebook!"),
-	QObject::trUtf8 ("Você está usando a versão Lite. Compre a versão completa "
-			 "na Nokia store para visualizar documentos sem quaisquer restrições."),
 	/* Splash screen */
 	QObject::trUtf8 ("Carregando..."),
 	/* News window */
@@ -397,9 +349,6 @@ static NSRLanguageData _languages[] = {
 			 "aparecerán las imágenes y que la página estará en blanco si el documento "
 			 "no contiene texto. También puede ser que el texto no se muestre correctamente "
 			 "si el idioma no es compatible con el teléfono."),
-	QObject::trUtf8 ("Usted está utilizando la versión básica de NSR Reader y solo puede ver "
-			 "%1 páginas por documento. Si desea ver todo el documento sin ninguna "
-			 "restricción, por favor considere comprar la versión completa en la Tienda Nokia."),
 	QObject::trUtf8 ("Acercar a %:"),
 	QObject::trUtf8 ("Número de página (%1):"),
 	QObject::trUtf8 ("¡El archivo ya está abierto!"),
@@ -419,18 +368,10 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Girar a la izquierda"),
 	QObject::trUtf8 ("Girar a la derecha"),
 	/* About window */
-	QObject::trUtf8 ("Editor:"),
-	QObject::trUtf8 ("Ekimov Alexander Vladimirovich"),
-	QObject::trUtf8 ("Desarrollador:"),
-	QObject::trUtf8 ("Alexander Saprykin,\n(c) 2011-2013"),
+	QObject::trUtf8 ("Alexander Saprykin, (c) 2011-2015"),
 	QObject::trUtf8 ("Contactos:"),
 	QObject::trUtf8 ("Iconos utilizados:"),
-	QObject::trUtf8 ("Si le gustó NSR Reader, por favor entre en la Tienda Nokia "
-			 "y deje un comentario en la página de la aplicación."),
 	QObject::trUtf8 ("¡Encuéntrenos en Facebook!"),
-	QObject::trUtf8 ("Usted está utilizando la versión básica. Compre la versión "
-			 "completa en la Tienda Nokia para ver los documentos sin ningún "
-			 "tipo de restricciones."),
 	/* Splash screen */
 	QObject::trUtf8 ("Cargando..."),
 	/* News window */

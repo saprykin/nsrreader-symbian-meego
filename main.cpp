@@ -58,11 +58,7 @@ int main(int argc, char *argv[])
 	const NSRLanguageData *lang = NSRLanguage::instance()->getLanguage();
 
 #ifdef Q_OS_SYMBIAN
-#  ifdef NSR_LITE_VERSION
-	loadSymbianResourceFile ("dialogs_2005ffa7.rsc");
-#  else
 	loadSymbianResourceFile ("dialogs_20049f7a.rsc");
-#  endif
 #endif
 
 #ifdef Q_OS_SYMBIAN

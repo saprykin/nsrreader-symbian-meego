@@ -1,5 +1,5 @@
-#DEFINES += NSR_SYMBIAN_S3
-#DEFINES += NSR_SYMBIAN_BELLE
+DEFINES += NSR_SYMBIAN_S3
+DEFINES += NSR_SYMBIAN_BELLE
 
 TARGET = nsrreader
 DEPLOYMENT.display_name = "NSR Reader"
@@ -7,8 +7,8 @@ DEPLOYMENT.display_name = "NSR Reader"
 VERSION = 2.1.2
 
 vendorinfo = \
-	"%{\"Ekimov Alexander Vladimirovich\"}" \
-	":\"Ekimov Alexander Vladimirovich\""
+        "%{\"Saprykin Alexander\"}" \
+        ":\"Saprykin Alexander\""
 
 vendor_deployment.pkg_prerules = vendorinfo
 DEPLOYMENT += vendor_deployment
@@ -48,27 +48,27 @@ RSS_RULES += "datatype_list = {"						\
 contains(DEFINES, NSR_SYMBIAN_BELLE) {
 	addFiles.pkg_postrules = "\"/QtSDK/Symbian/SDKs/SymbianSR1Qt474/epoc32/data/z/resource/apps/dialogs_20049f7a.rsc\" \
 				 - \"!:\\resource\\apps\\dialogs_20049f7a.rsc\""
-	addRecognizer.pkg_postrules = "\"/Projects/nsrreader-git/recognizer/SymbianBelle/nsrrecognizer.dll\" - \"!:\\sys\\bin\\nsrrecognizer.dll\""
-	addRecognizer2.pkg_postrules = "\"/Projects/nsrreader-git/recognizer/SymbianBelle/nsrrecognizer.rsc\" - \"!:\\resource\\plugins\\nsrrecognizer.rsc\""
+        addRecognizer.pkg_postrules = "\"/Projects/nsrreader-symbian-meego/recognizer/SymbianBelle/nsrrecognizer.dll\" - \"!:\\sys\\bin\\nsrrecognizer.dll\""
+        addRecognizer2.pkg_postrules = "\"/Projects/nsrreader-symbian-meego/recognizer/SymbianBelle/nsrrecognizer.rsc\" - \"!:\\resource\\plugins\\nsrrecognizer.rsc\""
 } else:contains(DEFINES, NSR_SYMBIAN_S3) {
 	addFiles.pkg_postrules = "\"/QtSDK/Symbian/SDKs/Symbian3Qt474/epoc32/data/z/resource/apps/dialogs_20049f7a.rsc\" \
 				 - \"!:\\resource\\apps\\dialogs_20049f7a.rsc\""
-	addRecognizer.pkg_postrules = "\"/Projects/nsrreader-git/recognizer/Symbian^3/nsrrecognizer.dll\" - \"!:\\sys\\bin\\nsrrecognizer.dll\""
-	addRecognizer2.pkg_postrules = "\"/Projects/nsrreader-git/recognizer/Symbian^3/nsrrecognizer.rsc\" - \"!:\\resource\\plugins\\nsrrecognizer.rsc\""
+        addRecognizer.pkg_postrules = "\"/Projects/nsrreader-symbian-meego/recognizer/Symbian^3/nsrrecognizer.dll\" - \"!:\\sys\\bin\\nsrrecognizer.dll\""
+        addRecognizer2.pkg_postrules = "\"/Projects/nsrreader-symbian-meego/recognizer/Symbian^3/nsrrecognizer.rsc\" - \"!:\\resource\\plugins\\nsrrecognizer.rsc\""
 } else {
 	addFiles.pkg_postrules = "\"/QtSDK/Symbian/SDKs/Symbian1Qt473/epoc32/data/z/resource/apps/dialogs_20049f7a.rsc\" \
 				 - \"!:\\resource\\apps\\dialogs_20049f7a.rsc\""
-	addRecognizer.pkg_postrules = "\"/Projects/nsrreader-git/recognizer/Symbian^1/nsrrecognizer.dll\" - \"!:\\sys\\bin\\nsrrecognizer.dll\""
-	addRecognizer2.pkg_postrules = "\"/Projects/nsrreader-git/recognizer/Symbian^1/nsrrecognizer.rsc\" - \"!:\\resource\\plugins\\nsrrecognizer.rsc\""
+        addRecognizer.pkg_postrules = "\"/Projects/nsrreader-symbian-meego/recognizer/Symbian^1/nsrrecognizer.dll\" - \"!:\\sys\\bin\\nsrrecognizer.dll\""
+        addRecognizer2.pkg_postrules = "\"/Projects/nsrreader-symbian-meego/recognizer/Symbian^1/nsrrecognizer.rsc\" - \"!:\\resource\\plugins\\nsrrecognizer.rsc\""
 }
 
 DEPLOYMENT += addFiles
-DEPLOYMENT += addRecognizer
-DEPLOYMENT += addRecognizer2
+#DEPLOYMENT += addRecognizer
+#DEPLOYMENT += addRecognizer2
 OTHER_FILES += nativesymbiandlg.hrh
 
-TARGET.UID3 = 0x20049F7A
-#TARGET.UID3 = 0xF0234F34
+#TARGET.UID3 = 0x20049F7A
+TARGET.UID3 = 0xF0234F34
 
 # Smart Installer package's UID
 # This UID is from the protected range 
@@ -77,7 +77,8 @@ TARGET.UID3 = 0x20049F7A
 # and 0x2002CCCF value if protected UID is given to the application
 #symbian:DEPLOYMENT.installer_header = 0x2002CCCF
 
-TARGET.CAPABILITY += NetworkServices ProtServ
+TARGET.CAPABILITY += NetworkServices
+# ProtServ
 
 contains(DEFINES, NSR_SYMBIAN_S3) {
 	TARGET.EPOCHEAPSIZE = 0x20000 0x5000000

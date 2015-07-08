@@ -1729,11 +1729,7 @@ FcConfigFileExists (const FcChar8 *dir, const FcChar8 *file)
 }
 
 #ifdef __SYMBIAN32__
-#ifdef NSR_LITE_VERSION
-#define FONTCONFIG_PATH	"c:\\data\\nsrreader_lite"
-#else
 #define FONTCONFIG_PATH	"c:\\data\\nsrreader"
-#endif
 #endif
 
 static FcChar8 **

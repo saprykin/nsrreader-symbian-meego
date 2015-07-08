@@ -30,16 +30,10 @@
 #ifdef Q_OS_SYMBIAN
 #  include <aknquerydialog.h>
 #  include "nativesymbiandlg.hrh"
-
-#  ifdef NSR_LITE_VERSION
-#    include <dialogs_2005ffa7.rsg>
-#  else
-#    include <dialogs_20049f7a.rsg>
-#  endif
+#  include <dialogs_20049f7a.rsg>
 #endif
 
 #define NSR_TOOL_BUTTON_HEIGHT	48
-#define NSR_MAX_LITE_PAGES	30
 
 QString fileToOpen;
 
@@ -547,11 +541,7 @@ void nsrMainWindow::loadDocument(const QString		&file,
 	_pageCount = _doc->getNumberOfPages();
 
 	if (session.getFile() == file) {
-#ifdef NSR_LITE_VERSION
-		checkForLite(session.getPage());
-#else
 		_page = session.getPage();
-#endif
 		_doc->setRotation(session.getRotation());
 
 		if (session.isFitToWidth())
@@ -935,22 +925,12 @@ void nsrMainWindow::updateToolFrame()
 
 void nsrMainWindow::goToPage(int page, const QPoint& pos)
 {
-	bool needUpdate;
-
 	if (_doc == NULL || page < 1 || page > _pageCount)
 		return;
 
-#ifdef NSR_LITE_VERSION
-	needUpdate = checkForLite(page);
-#else
 	_page = page;
-	needUpdate = true;
-#endif
-
-	if (needUpdate) {
-		_lastPos = pos;
-		updatePage();
-	}
+	_lastPos = pos;
+	updatePage();
 }
 
 void nsrMainWindow::closeEvent(QCloseEvent *ev)
@@ -1724,35 +1704,6 @@ void nsrMainWindow::stopKineticScroll()
 		_imgContainer->stopKineticScroll();
 	else if (_mode == NSRViewModeText)
 		_edit->stopKineticScroll();
-}
-
-bool nsrMainWindow::checkForLite(int page)
-{
-	if (page > NSR_MAX_LITE_PAGES) {
-#ifdef Q_OS_SYMBIAN
-		QMessageBox::information(NULL,
-					 _langData->mainMessageInfo,
-					 (_langData->mainLiteVersionInfo).arg(NSR_MAX_LITE_PAGES));
-#else
-		NSRInfoMessageBox *msgBox = new NSRInfoMessageBox (this,
-								   _langData->mainMessageInfo,
-								   (_langData->mainLiteVersionInfo).arg(NSR_MAX_LITE_PAGES));
-		msgBox->resize (size ());
-		msgBox->showMessage ();
-
-		delete msgBox;
-#endif
-
-		if (_page == NSR_MAX_LITE_PAGES)
-			return false;
-		else {
-			_page = NSR_MAX_LITE_PAGES;
-			return true;
-		}
-	} else {
-		_page = page;
-		return true;
-	}
 }
 
 void nsrMainWindow::saveSession()

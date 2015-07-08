@@ -100,7 +100,6 @@ private:
 	void switchViewMode(NSRViewMode mode);
 	void switchInvertedMode(bool isInverted, bool updatePage = true);
 	void stopKineticScroll();
-	bool checkForLite(int page);
 	void saveSession();
 	void checkViewModeOnLoad(const NSRSettings &settings);
 #ifdef Q_WS_MAEMO_5

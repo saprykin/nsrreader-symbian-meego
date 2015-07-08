@@ -26,11 +26,7 @@
 #include <stdlib.h>
 
 #ifdef __SYMBIAN32__
-#ifdef NSR_LITE_VERSION
-#define FC_CACHEDIR		"c:\\data\\nsrreader_lite"
-#else
 #define FC_CACHEDIR		"c:\\data\\nsrreader"
-#endif
 #define FC_DEFAULT_FONTS	"Sans"
 #endif
 

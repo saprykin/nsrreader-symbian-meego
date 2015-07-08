@@ -187,9 +187,5 @@
 
 
 #ifndef POPPLER_DATADIR
-#  ifdef NSR_LITE_VERSION
-#    define POPPLER_DATADIR "c:\\data\\nsrreader_lite"
-#  else
-#    define POPPLER_DATADIR "c:\\data\\nsrreader"
-#  endif
+#  define POPPLER_DATADIR "c:\\data\\nsrreader"
 #endif

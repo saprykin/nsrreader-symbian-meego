@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>390</width>
-    <height>461</height>
+    <height>296</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -40,7 +40,7 @@
         <x>0</x>
         <y>0</y>
         <width>388</width>
-        <height>459</height>
+        <height>303</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -89,38 +89,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="publisherLabel">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>48</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QLabel {
-	background-color: white;
-	border: 1px solid rgba(180, 180, 180, 255);
-	border-right:none;
-	border-left:none;	
-	border-top:none;
-	color: rgb(0, 0, 0);
-}</string>
-         </property>
-         <property name="text">
-          <string>Publisher: Ekimov Alexander Vladimirovich</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QLabel" name="developerLabel">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
@@ -145,7 +113,7 @@
 }</string>
          </property>
          <property name="text">
-          <string>Developer: Alexander Saprykin, (c) 2011-2012</string>
+          <string>Alexander Saprykin, (c) 2011-2015</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
@@ -219,86 +187,6 @@
          </property>
          <property name="wordWrap">
           <bool>true</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="liteWarningLabel">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>48</height>
-          </size>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QLabel {
-	background-color: white;
-	border: 1px solid rgba(180, 180, 180, 255);
-	border-right:none;
-	border-left:none;	
-	border-top:none;
-	color: rgb(0, 0, 0);
-}</string>
-         </property>
-         <property name="text">
-          <string>You're using the Lite version. Buy full version in Nokia store to view documents without any restrictions.</string>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-         <property name="margin">
-          <number>5</number>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="feedbackLabel">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>48</height>
-          </size>
-         </property>
-         <property name="font">
-          <font>
-           <weight>50</weight>
-           <italic>false</italic>
-           <bold>false</bold>
-          </font>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QLabel {
-	background-color: white;
-	border: 1px solid rgba(180, 180, 180, 255);
-	border-right: none;
-	border-left: none;
-	border-top: none;
-	color: rgb(0, 0, 0);
-}</string>
-         </property>
-         <property name="text">
-          <string>If you liked NSR Reader, please leave a feedback in Nokia store on application's page</string>
-         </property>
-         <property name="alignment">
-          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-         </property>
-         <property name="wordWrap">
-          <bool>true</bool>
-         </property>
-         <property name="margin">
-          <number>5</number>
          </property>
         </widget>
        </item>

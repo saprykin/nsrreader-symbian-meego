@@ -7,11 +7,7 @@
 #define NSR_READER_VERSION "2.1.2"
 
 #ifdef Q_WS_X11
-#  ifdef NSR_LITE_VERSION
-#    define NSR_CONFIG_DIR ".nsrreaderlite"
-#  else
-#    define NSR_CONFIG_DIR ".nsrreader"
-#  endif
+#  define NSR_CONFIG_DIR ".nsrreader"
 #endif
 
 NSRSettings::NSRSettings(QObject *parent) :
@@ -213,11 +209,7 @@ void NSRSettings::saveTextEncoding (const QString &textEnc)
 
 QString NSRSettings::getVersion()
 {
-#ifdef NSR_LITE_VERSION
-	return  QString ("Lite ") + QString (NSR_READER_VERSION);
-#else
 	return QString (NSR_READER_VERSION);
-#endif
 }
 
 QStringList NSRSettings::getSupportedEncodings()
