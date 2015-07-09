@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>390</width>
-    <height>296</height>
+    <height>344</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -40,7 +40,7 @@
         <x>0</x>
         <y>0</y>
         <width>388</width>
-        <height>303</height>
+        <height>351</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -187,6 +187,35 @@
          </property>
          <property name="wordWrap">
           <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="licenseLabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>48</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel {
+	background-color: white;
+	border: 1px solid rgba(180, 180, 180, 255);
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	color: rgb(0, 0, 0);
+}</string>
+         </property>
+         <property name="text">
+          <string>GPLv2 license</string>
          </property>
         </widget>
        </item>

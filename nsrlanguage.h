@@ -42,6 +42,7 @@ struct NSRLanguageData {
 	QString aboutContacts;
 	QString aboutIconsNote;
 	QString aboutFacebookNote;
+	QString aboutLicense;
 	/* Splash screen */
 	QString splashLoading;
 	/* News window */

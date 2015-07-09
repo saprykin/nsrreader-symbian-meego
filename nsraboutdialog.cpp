@@ -19,6 +19,7 @@ NSRAboutDialog::NSRAboutDialog (QWidget *parent) :
 	ui->developerLabel->setText (lang->aboutDeveloperName);
 	ui->contactsLabel->setText (lang->aboutContacts + " <nsr.reader@gmail.com>");
 	ui->iconsCreditLabel->setText (lang->aboutIconsNote + " Stuttgart pack, Axialis Team");
+	ui->licenseLabel->setText (lang->aboutLicense);
 	ui->facebookLabel->setText (lang->aboutFacebookNote);
 	ui->versionLabel->setText (QString("NSR Reader %1").arg(NSRSettings::getVersion()));
 
