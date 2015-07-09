@@ -55,8 +55,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("What's new"),
 	QObject::trUtf8 ("Welcome to"),
 	QObject::trUtf8 ("New in this version:"),
-	QObject::trUtf8 ("● add Brazil Portuguese and Spanish languages;"),
-	QObject::trUtf8 ("● fix TIFF handling when pages count was less by one."),
+	QObject::trUtf8 ("● various fixes."),
 	/* Preferences window */
 	QObject::trUtf8 ("Save last document's position"),
 	QObject::trUtf8 ("Fullscreen mode"),
@@ -119,8 +118,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Что нового"),
 	QObject::trUtf8 ("Добро пожаловать в"),
 	QObject::trUtf8 ("Новое в данной версии:"),
-	QObject::trUtf8 ("● добавлены португальский (Бразилия) и испанский языки;"),
-	QObject::trUtf8 ("● исправлена ошибка, когда число страниц в TIFF файле было меньше на одну."),
+	QObject::trUtf8 ("● мелкие исправления."),
 	/* Preferences window */
 	QObject::trUtf8 ("Сохранять последнюю позицию"),
 	QObject::trUtf8 ("Полноэкранный режим"),
@@ -182,8 +180,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("नया क्या है"),
 	QObject::trUtf8 ("स्वागत"),
 	QObject::trUtf8 ("इस वर्शन में नया:"),
-	QObject::trUtf8 ("● add Brazil Portuguese and Spanish languages;"),
-	QObject::trUtf8 ("● fix TIFF handling when pages count was less by one."),
+	QObject::trUtf8 ("●  various fixes."),
 	/* Preferences window */
 	QObject::trUtf8 ("पिछले दस्तावेज की स्थिति सहेजें"),
 	QObject::trUtf8 ("फुल स्क्रीन मोड"),
@@ -247,8 +244,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Novità..."),
 	QObject::trUtf8 ("Benvenuto su"),
 	QObject::trUtf8 ("Novità di questa versione:"),
-	QObject::trUtf8 ("● add Brazil Portuguese and Spanish languages;"),
-	QObject::trUtf8 ("● fix TIFF handling when pages count was less by one."),
+	QObject::trUtf8 ("● various fixes."),
 	/* Preferences window */
 	QObject::trUtf8 ("Salva posizione ultimo documento"),
 	QObject::trUtf8 ("Fullscreen"),
@@ -312,8 +308,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Novidades"),
 	QObject::trUtf8 ("Bem-vindo(a) ao"),
 	QObject::trUtf8 ("Novo nesta versão:"),
-	QObject::trUtf8 ("● add Brazil Portuguese and Spanish languages;"),
-	QObject::trUtf8 ("● fix TIFF handling when pages count was less by one."),
+	QObject::trUtf8 ("● various fixes."),
 	/* Preferences window */
 	QObject::trUtf8 ("Salvar última posição do documento"),
 	QObject::trUtf8 ("Modo tela cheia"),
@@ -378,8 +373,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Novedades"),
 	QObject::trUtf8 ("Bienvenido a"),
 	QObject::trUtf8 ("Novedades en esta versión:"),
-	QObject::trUtf8 ("● add Brazil Portuguese and Spanish languages;"),
-	QObject::trUtf8 ("● fix TIFF handling when pages count was less by one."),
+	QObject::trUtf8 ("● various fixes."),
 	/* Preferences window */
 	QObject::trUtf8 ("Guardar posición del último docum."),
 	QObject::trUtf8 ("Modo pantalla completa"),

@@ -1784,4 +1784,3 @@ void nsrMainWindow::disableSwipe ()
 			1);
 }
 #endif
-

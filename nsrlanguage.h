@@ -49,7 +49,6 @@ struct NSRLanguageData {
 	QString newsWelcome;
 	QString newsTitleLabel;
 	QString newsFeature1;
-	QString newsFeature2;
 	/* Preferences window */
 	QString prefsSaveLastDoc;
 	QString prefsFullscreen;

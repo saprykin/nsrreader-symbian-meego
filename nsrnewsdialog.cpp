@@ -47,12 +47,10 @@ NSRNewsDialog::NSRNewsDialog(QWidget *parent) :
 	ui->welcomeLabel->setStyleSheet (style);
 	ui->newsTitleLabel->setStyleSheet (style2);
 	ui->newsLabel1->setStyleSheet (style2);
-	ui->newsLabel2->setStyleSheet (style2);
 
 	ui->welcomeLabel->setText ((lang->newsWelcome + " NSR Reader %1!").arg (NSRSettings::getVersion()));
 	ui->newsTitleLabel->setText (lang->newsTitleLabel);
 	ui->newsLabel1->setText (lang->newsFeature1);
-	ui->newsLabel2->setText (lang->newsFeature2);
 }
 
 NSRNewsDialog::~NSRNewsDialog()
