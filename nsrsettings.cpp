@@ -301,7 +301,7 @@ QString NSRSettings::formatFileName (const QString &name)
 #ifdef Q_WS_MAEMO_5
 	return QString(name).replace(QRegExp ("[:\\\\/]"), "_");
 #else
-	return QString(name).replace(QRegExp ("[:\\\/]"), "_");
+	return QString(name).replace(QRegExp ("[:\\\\/]"), "_");
 #endif
 }
 

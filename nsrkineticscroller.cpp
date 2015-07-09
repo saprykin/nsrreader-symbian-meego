@@ -191,7 +191,6 @@ bool NSRKineticScroller::eventFilter(QObject *obj, QEvent *ev)
 			diff *= 2;
 #endif
 
-
 		if (!_xScroll && qAbs (diff.x()) > 50)
 			_xScroll = true;
 
@@ -269,6 +268,8 @@ void NSRKineticScroller::startMoving()
 
 void NSRKineticScroller::timerEvent (QTimerEvent *ev)
 {
+	Q_UNUSED (ev);
+
 	if (_isPressed && _isTracking) {
 		QPoint curPos = _scrollObject->mapFromGlobalCursor(QCursor::pos());
 #ifdef Q_OS_SYMBIAN

@@ -908,6 +908,8 @@ void nsrMainWindow::pageToWidth()
 
 void nsrMainWindow::resizeEvent(QResizeEvent *ev)
 {
+	Q_UNUSED (ev);
+
 	if (_aboutDlg != NULL)
 		_aboutDlg->resize(size());
 
@@ -1692,7 +1694,7 @@ void nsrMainWindow::updateTopToolbar()
 
 void nsrMainWindow::updateCentralWidget()
 {
-	QWidget *centralWidget;
+	QWidget *centralWidget = NULL;
 	int	fixedHeight = _isFullscreenMode ?
 				height() : height() - NSR_TOOL_BUTTON_HEIGHT * 2;
 
