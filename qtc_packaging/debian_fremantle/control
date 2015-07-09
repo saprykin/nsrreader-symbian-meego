@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Alexander Saprykin <nsr.reader@gmail.com>
 Build-Depends: debhelper (>= 5), libqt4-dev
 Standards-Version: 3.7.3
-Homepage: store.ovi.com/content/179588
 
 Package: nsrreader
 Architecture: any

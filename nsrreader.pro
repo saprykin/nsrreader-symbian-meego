@@ -4,7 +4,7 @@ DEFINES += NSR_SYMBIAN_BELLE
 TARGET = nsrreader
 DEPLOYMENT.display_name = "NSR Reader"
 
-VERSION = 2.1.2
+VERSION = 2.1.3
 
 vendorinfo = \
         "%{\"Saprykin Alexander\"}" \

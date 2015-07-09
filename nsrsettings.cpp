@@ -22,7 +22,7 @@
 #include <QApplication>
 #include <QFontDatabase>
 
-#define NSR_READER_VERSION "2.1.2"
+#define NSR_READER_VERSION "2.1.3"
 
 #ifdef Q_WS_X11
 #  define NSR_CONFIG_DIR ".nsrreader"
