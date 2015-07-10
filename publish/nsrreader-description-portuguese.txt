@@ -1,0 +1,14 @@
+O NSR Reader é um poderoso leitor de arquivos PDF, DjVu, TIFF (S^3, Anna, Belle) e TXT. Ele oferece qualidade de desktop para dispositivos touchscreen. Principais características:
+-salva o último documento aberto e sua posição;
+-modo texto;
+-orientações paisagem e retrato;
+-PDFs protegidos;
+-zoom com os dedos;
+-tela cheia, rotação;
+-rolagem cinética e animação de UI;
+-pode ser usado como leitor padrão;
+-ajusta-se à tela.
+Leia documentos com prazer!
+
+
+Keywords: pdf, PDF, DjVu, DJVU, djvu, reader, viewer, tiff, TIFF, txt, TXT, text, nsr, nsr reader, docs
