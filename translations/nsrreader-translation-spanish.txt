@@ -1,0 +1,66 @@
+/* Main window */
+Info = Información
+Couldn't open document! Seems that document has unsupported encryption version. = ¡No se pudo abrir el documento! Es posible que tenga una versión de cifrado incompatible.
+Open file = Abrir archivo
+All supported files = Todos los archivos compatibles
+PDF files = Archivos PDF
+DjVu files = Archivos DjVu
+Text files = Archivos de texto
+TIFF files = Archivos TIFF
+You are using text mode the first time. Note that document formatting may be differ than in original one, no images displayed and page can be empty if  there is no text in the document. Also text may not be displayed properly if appropriate language is not supported by phone. = Está utilizando el modo texto por primera vez. Tenga en cuenta que el formato del documento quizás sea diferente al original, que no aparecerán las imágenes y que la página estará en blanco si el documento no contiene texto. También puede ser que el texto no se muestre correctamente si el idioma no es compatible con el teléfono.
+You are using the Lite version of NSR Reader and it's restricted only for %1 pages per document. If you want to view full document without any restrictions please consider purchasing full version at Nokia store. = Usted está utilizando la versión básica de NSR Reader y solo puede ver %1 páginas por documento. Si desea ver todo el documento sin ninguna restricción, por favor considere comprar la versión completa en la Tienda Nokia.
+Zoom to %: = Acercar a %:
+Page number: = Número de página:
+File is already opened! = ¡El archivo ya está abierto!
+No text data available for this page = No hay datos de texto para esta página
+Enter password: = Contraseña:
+Cancel = Cancelar
+
+/* Popup tool frame */
+Preferences = Preferencias
+Go to page = Ir a la página
+About = Acerca de
+Exit = Salir
+
+/* Top left context menu */
+Fit to Width = Ajustar al ancho
+Zoom to % = Acercar a %
+Rotate Left = Girar a la izquierda
+Rotate Right = Girar a la derecha
+
+/* About window */
+Publisher: = Editor:
+Developer: = Desarrollador:
+Contacts: = Contactos:
+Used icons: = Iconos utilizados:
+If you liked NSR Reader, please leave a feedback in Nokia store on application's page. = Si le gustó NSR Reader, por favor entre en la Tienda Nokia y deje un comentario en la página de la aplicación.
+Find on Facebook! = ¡Encuéntrenos en Facebook!
+You're using the Lite version. Buy full version in Nokia store to view documents without any restrictions. = Usted está utilizando la versión básica. Compre la versión completa en la Tienda Nokia para ver los documentos sin ningún tipo de restricciones.
+
+/* Splash screen */
+Loading... = Cargando…
+
+/* News window */
+What's new = Novedades
+Welcome to = Bienvenido a
+New in this version: = Novedades en esta versión:
+
+/* Preferences window */
+Save last document's position = Guardar posición del último documento
+Fullscreen mode = Modo pantalla completa
+Use text mode (column view) = Usar modo texto (vista de columnas)
+Inverted colors = Colores invertidos
+Text mode font: = Fuente del modo texto:
+Text encoding: = Codificación de texto:
+Select font = Elegir fuente
+Select encoding = Elegir codificación
+
+/* Touch dialog */
+Close = Cerrar
+
+/* Start label */
+Tips & Tricks = Consejos y trucos
+Use pinch zoom and Volume Up/Down keys to navigate through pages = Para desplazarse por las páginas utilice el gesto para acercar y las teclas de volumen 
+Double tap on right or left side of the screen to go next or previous page = Para ir a la página siguiente o regresar a la anterior, toque dos veces en el lado derecho o izquierdo de la pantalla
+Double tap center of the screen to fit page to width = Para ajustar la página al ancho de la pantalla toque dos veces en el centro
+Continue to scroll page on the edge to go next or previous = Continúe desplazando la página en el borde para ir a la siguiente o regresar a la anterior
