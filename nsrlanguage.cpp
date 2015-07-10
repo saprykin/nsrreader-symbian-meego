@@ -67,7 +67,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Contacts:"),
 	QObject::trUtf8 ("Used icons:"),
 	QObject::trUtf8 ("Find on Facebook!"),
-	QObject::trUtf8 ("GNU GPLv2 license"),
+	QObject::trUtf8 ("General Public License v2"),
     /* Splash screen */
 	QObject::trUtf8 ("Loading..."),
 	/* News window */
@@ -131,7 +131,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Контакты:"),
 	QObject::trUtf8 ("Иконки:"),
 	QObject::trUtf8 ("Ищите на Facebook!"),
-	QObject::trUtf8 ("Лицензия GNU GPLv2"),
+	QObject::trUtf8 ("General Public License v2"),
 	/* Splash screen */
 	QObject::trUtf8 ("Загрузка..."),
 	/* News window */
@@ -194,7 +194,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("संपर्क:"),
 	QObject::trUtf8 ("प्रयुक्त आइकन:"),
 	QObject::trUtf8 ("Facebook पर पाएं!"),
-	QObject::trUtf8 ("GNU GPLv2 license"),
+	QObject::trUtf8 ("General Public License v2"),
 	/* Splash screen */
 	QObject::trUtf8 ("लोड हो रहा है..."),
 	/* News window */
@@ -259,7 +259,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Contatti:"),
 	QObject::trUtf8 ("Icone utilizzate:"),
 	QObject::trUtf8 ("Trova su Facebook!"),
-	QObject::trUtf8 ("GNU GPLv2 license"),
+	QObject::trUtf8 ("General Public License v2"),
 	/* Splash screen */
 	QObject::trUtf8 ("In caricamento..."),
 	/* News window */
@@ -324,7 +324,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Contatos:"),
 	QObject::trUtf8 ("Ícones usados:"),
 	QObject::trUtf8 ("Encontre no Facebook!"),
-	QObject::trUtf8 ("GNU GPLv2 license"),
+	QObject::trUtf8 ("General Public License v2"),
 	/* Splash screen */
 	QObject::trUtf8 ("Carregando..."),
 	/* News window */
@@ -390,7 +390,7 @@ static NSRLanguageData _languages[] = {
 	QObject::trUtf8 ("Contactos:"),
 	QObject::trUtf8 ("Iconos utilizados:"),
 	QObject::trUtf8 ("¡Encuéntrenos en Facebook!"),
-	QObject::trUtf8 ("GNU GPLv2 license"),
+	QObject::trUtf8 ("General Public License v2"),
 	/* Splash screen */
 	QObject::trUtf8 ("Cargando..."),
 	/* News window */
