@@ -231,7 +231,6 @@ nsrMainWindow::nsrMainWindow(QWidget *parent)
 
 		if (_doc != NULL && _doc->isValid() && !_delayedLoading) {
 			resize(tmpSession.getSize());
-			_page = 1;
 			_doc->setInvertedColors(_isInvertedColors);
 			updatePageWithoutThread();
 
@@ -590,7 +589,6 @@ void nsrMainWindow::loadDocument(const QString		&file,
 	} else
 		_page = 1;
 }
-
 
 void nsrMainWindow::onOpenButtonClicked()
 {
